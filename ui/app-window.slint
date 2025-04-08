@@ -1,6 +1,18 @@
+import { Button, LineEdit, VerticalBox } from "std-widgets.slint";
+
 export component MainWindow inherits Window {
+    width: 600px;
+    height: 600px;
+    title: "Enty";
+
+VerticalBox {
     Text {
         text: "hello world";
         color: green;
+    }
+    LineEdit {placeholder-text: "Enter text here";}
+    Button {
+text: "hello";
+    }
     }
 }
