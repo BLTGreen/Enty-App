@@ -20,7 +20,7 @@ pub struct Media {
 
     genre: String,
 
-    released: String
+    released: Int,
 
 }
 

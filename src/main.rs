@@ -1,3 +1,5 @@
+mod schema;
+
 use neo4rs::*;
 use neo4j_cypher::CypQue;
 
