@@ -14,7 +14,7 @@ pub struct Person {
 
     name: String,
 
-    born: Int,
+    born: i32,
 
 }
 

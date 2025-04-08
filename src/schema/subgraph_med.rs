@@ -20,7 +20,7 @@ pub struct Media {
 
     genre: String,
 
-    released: Int,
+    released: i32,
 
 }
 
@@ -62,11 +62,11 @@ impl SubgraphMedQuery {
 
             };
 
-            Ok(movie)
+            Ok(media)
 
         } else {
 
-            Err("Movie not found".into())
+            Err("Media not found".into())
 
         }
 

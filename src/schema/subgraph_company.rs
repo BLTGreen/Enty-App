@@ -14,7 +14,7 @@ pub struct Company {
 
     name: String,
 
-    created: Int,
+    created: i32,
 
 }
 
