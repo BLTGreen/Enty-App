@@ -5,6 +5,13 @@ edition = "2024"
 
 [dependencies]
 slint = "1.8.0"
+neo4rs = "0.8.0"
+neo4j_cypher = "0.2.2"
+async-graphql = "7.0.16"
+tokio-stream = "0.1.17"
+tokio = "1.44.2"
+actix-web = "4.10.2"
+async-graphql-actix-web = "7.0.16"
 
 [build-dependencies]
 slint-build = "1.8.0"
